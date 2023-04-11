@@ -1,8 +1,13 @@
+.color1 {color: #208ed8;}
+.color2 {color: #20b5d8;}
+.color3 {color: #20dad8;}
+.color4 {color: #bbefde;}
+.color5 {color: #f8efe3;}
 /* Barra de navegacion */
 
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  background-color: #bbefde;
 }
 
 .navbar-collapse {
@@ -22,12 +27,12 @@ section {
 h1 {
   font-size: 2.5rem;
   font-family: 'Rubik Dirt', cursive;
-  color: #c5448f;
+  color: #20dad8;
 }
 
 .seccion-oscura {
   color: white;
-  background-color: #c5448f;
+  background-color: #c1e2d7;
 }
 
 .seccion-clara {
@@ -39,7 +44,7 @@ h1 {
   font-size: 2rem;
   padding: 15px 0;
   font-family: 'Rubik Dirt', cursive;
-  color: #ff6bbe;
+  color: #20b5d8;
 }
 
 .seccion-descripcion {
@@ -54,12 +59,12 @@ h1 {
 .btn-info {
   font-size: 1.1rem;
   margin: 20px;
-  background-color: #c5448f;
+  background-color: #20dad8;
   border: none;
 }
 
 .texto-negro {
-  color: #c5448f;
+  color: #20b5d8;
 }
 
 .texto-blanco {
@@ -79,8 +84,8 @@ h1 {
 }
 
 .hero-imagen-desarrollador {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   margin: 20px;
 }
 
@@ -119,13 +124,13 @@ h1 {
 
 .experiencia .columna:hover {
   color: white;
-  background-color: #c5448f;
+  background-color: #20b5d8;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #ff6bbe;
-  background-color: #fffbb5; 
+  color: #20b5d8;
+  background-color: #f8efe3; 
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -180,7 +185,7 @@ h1 {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 0;
-  color: #c5448f;
+  color: #208ed8;
 }
 
 .proyecto {
@@ -200,7 +205,7 @@ h1 {
 }
 
 .overlay i {
-  color: #c5448f;
+  color: #bbefde;
   font-size: 60px;
   margin: 10px;
 }
@@ -286,9 +291,9 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: #ff6bbe;
+  background-color: #f8efe3;
   border-radius: 10px;
-  box-shadow: 0px 1px 4px 1px white;
+  box-shadow: 0px 1px 4px 1px rgb(29, 28, 28);
 }
 
 .contacto .row {
@@ -298,15 +303,15 @@ h1 {
 }
 
 .contacto .descripcion {
-  color: white;
+  color: rgb(10, 10, 10);
   font-size: 1.2rem;
 }
 
 .contacto button {
-  color: white;
+  color: rgb(22, 22, 22);
   font-weight: bold;
   background-color: transparent;
-  border: 2px solid white;
+  border: 2px solid rgb(109, 99, 99);
   padding: 1.25em 2em;
   margin: 10px;
   border-radius: 100px;
